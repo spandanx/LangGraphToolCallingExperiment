@@ -1,0 +1,36 @@
+{
+  "messages": [
+    {
+      "content": "What is the weather at Iceland?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": "bc301301-e297-4a55-9fe8-c50829fb7d38",
+      "example": false
+    },
+    {
+      "content": "I don't have the current, real-time weather conditions for Iceland. Weather in Iceland can be very localized and change rapidly.\n\nHowever, I can give you the best way to find out:\n\n*   **Use a reliable weather website or app:** I recommend checking a reputable weather source that specializes in Icelandic weather. Some good options include:\n\n    *   **Vedur.is:** This is the official Icelandic Meteorological Office website. It's the most accurate and comprehensive source.    *   **Yr.no:** A Norwegian weather service that is also very reliable for Iceland.\n    *   **AccuWeather, Weather.com, etc.:** These general weather sites can be useful, but double-check their information against Vedur.is or Yr.no for more accuracy.\n\n*   **Specify a location:** Iceland is a large island, and the weather in Reykjavik will be different from the weather in Akureyri or the highlands. When you check the weather, be sure to specify the town or region you're interested in.\n\nWhen you check, look for the following information:\n\n*   **Temperature:** In Celsius (usually)\n*   **Wind speed and direction:** This is very important in Iceland, as strong winds are common.\n*   **Precipitation:** Rain, snow, sleet, etc.\n*   **Cloud cover:** Overcast, partly cloudy, sunny, etc.\n*   **Weather alerts:** Keep an eye out for any warnings about storms, high winds, or other hazardous conditions.\n\nEnjoy your time in Iceland! Be prepared for anything!",
+      "additional_kwargs": {},
+      "response_metadata": {
+        "safety_ratings": [],
+        "finish_reason": "STOP",
+        "model_name": "gemini-2.0-flash-exp"
+      },
+      "type": "ai",
+      "name": null,
+      "id": "run--95f98914-7267-4fef-9427-a6b04845be94",
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 7,
+        "output_tokens": 332,
+        "total_tokens": 339,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    }
+  ]
+}

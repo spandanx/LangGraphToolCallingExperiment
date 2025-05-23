@@ -1,0 +1,36 @@
+{
+  "messages": [
+    {
+      "content": "What is the weather at Iceland?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": "06d537fc-5d19-430e-b69c-bff09069a2a7",
+      "example": false
+    },
+    {
+      "content": "I can't give you a real-time weather report for Iceland. Weather changes very quickly, especially in Iceland!\n\nHowever, here's how you can get the most accurate and up-to-date information:\n\n*   **Vedur.is:** This is the official Icelandic Meteorological Office website. It's the best source for detailed forecasts, warnings, and observations across the country.\n*   **Specific Location:** Iceland's weather varies greatly depending on the region. When you check the weather, specify which part of Iceland you're interested in. For example, \"Reykjavik weather\" or \"weather in the Westfjords.\"\n*   **Weather Apps:** Many weather apps can provide detailed forecasts for Iceland, using data from reliable sources.\n\nI hope this helps you find the weather information you need!",
+      "additional_kwargs": {},
+      "response_metadata": {
+        "safety_ratings": [],
+        "finish_reason": "STOP",
+        "model_name": "gemini-2.0-flash-exp"
+      },
+      "type": "ai",
+      "name": null,
+      "id": "run--c6fa2624-11b1-4d01-bdd4-0bc3f4540d28",
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 7,
+        "output_tokens": 170,
+        "total_tokens": 177,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    }
+  ]
+}

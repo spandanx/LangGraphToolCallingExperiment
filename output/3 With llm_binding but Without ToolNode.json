@@ -1,0 +1,50 @@
+{
+  "messages": [
+    {
+      "content": "What is the weather at Iceland?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": "94e29ee1-96a2-4f2d-becd-86b0c0144cd9",
+      "example": false
+    },
+    {
+      "content": "",
+      "additional_kwargs": {
+        "function_call": {
+          "name": "tavily_search_results_json",
+          "arguments": "{\"query\": \"weather in Iceland\"}"
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "STOP",
+        "model_name": "gemini-2.0-flash-exp",
+        "safety_ratings": []
+      },
+      "type": "ai",
+      "name": null,
+      "id": "run--07e7f705-1b32-43c5-9f81-7fce5cd8a15a",
+      "example": false,
+      "tool_calls": [
+        {
+          "name": "tavily_search_results_json",
+          "args": {
+            "query": "weather in Iceland"
+          },
+          "id": "e228996f-cac0-4f4d-88e1-b516ef48db67",
+          "type": "tool_call"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 56,
+        "output_tokens": 12,
+        "total_tokens": 68,
+        "input_token_details": {
+          "cache_read": 0
+        }
+      }
+    }
+  ]
+}

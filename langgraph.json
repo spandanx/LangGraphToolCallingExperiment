@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/agent/1_ToolBot_Without_LLMBinding_Without_Toolnode.py:graph"
+  },
+  "env": ".env"
+}
